@@ -8,4 +8,4 @@ services:
       - "bridge"
     
     volumes:
-      - "./app:/src/app"
+      - "./app:/usr/src/app"
