@@ -6,4 +6,6 @@ services:
       - "80:5000"
     network:
       - "bridge"
-      
+    
+    volumes:
+      - "./app:/src/app"
