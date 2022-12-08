@@ -1,1 +1,9 @@
-version '3'
+version: "3.9"
+services:
+  MyNode:
+    build: .
+    ports:
+      - "80:5000"
+    network:
+      - "bridge"
+      
